@@ -20,9 +20,8 @@ header{
 
 header .container{
   max-width: 920px;
-  padding: 0 20px;
+  padding: 0 10px;
   margin: 0 auto;
-  position: relative;
 }
 
 header nav{
@@ -79,7 +78,7 @@ header input::-ms-input-placeholder {
 /* --------------principal---------------*/
 .principal{
   background: #F3F5F7;
-  padding: 100px 20px;
+  padding: 100px 10px;
 }
 
 .principal article{
