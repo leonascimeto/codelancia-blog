@@ -87,6 +87,8 @@ header input::-ms-input-placeholder {
   margin: 0 auto;
   background: var(--white);
   padding: 25px;
+  border: none;
+  border-radius: 5px;
 }
 
 .principal article + article{
