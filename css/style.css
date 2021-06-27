@@ -1,0 +1,117 @@
+/* fontes */
+/* font-family: 'Inter', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+/* font-family: 'Lexend Deca', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* ----------reset----------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----------header----------- */
+header{
+  height: 250px;
+  background: var(--linear);
+}
+
+header .container{
+  max-width: 920px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
+  font-family: 'Lexend Deca', sans-serif; 
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1.875em;
+  padding-top: 41px;
+}
+
+header input{
+  width: 100%;
+  height: 65px;
+  border-radius: 5px;
+  margin-top: 60px;
+  border: none;
+  padding: 22px 22px 22px 52px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.125em;
+  line-height: 1.375em;
+  background: rgba(255, 255, 255, 0.2);
+  background-image: url(../assets/images/lupa.svg);
+  background-repeat: no-repeat;
+  background-position: 10px 16px;
+  color: var(--white);
+  outline: none;
+}
+
+header .lupa{
+  position: absolute;
+  bottom: 17px;
+  right: 850px;
+}
+
+header input::-webkit-input-placeholder {
+  color: var(--white);
+}
+
+header input::-moz-placeholder { /* Firefox 18- */
+  color: var(--white);
+}
+
+header input::-moz-placeholder {  /* Firefox 19+ */
+  color: var(--white);
+}
+
+header input::-ms-input-placeholder {  
+  color: var(--white);
+}
+
+/* --------------principal---------------*/
+.principal{
+  background: #F3F5F7;
+  padding: 100px 20px;
+}
+
+.principal article{
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--white);
+  padding: 25px;
+}
+
+.principal article + article{
+  margin-top: 50px;
+}
+
+.principal article .data-curtir{
+  display: flex;
+  justify-content: space-between;
+  color: var(--text);
+  font-size: 1em;
+  line-height: 1.250em;
+}
+
+.principal article h1{
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--title);
+  font-size: 1.625em;
+  line-height: 2em;
+}
+
+.principal article p{
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--text);
+  font-size: 1.125;
+  line-height: 2em;
+}
+
